@@ -23,5 +23,16 @@ public class CategoryService {
         return reposityCategory.save(category);
     }
 
+    public Category findCategory(CategoryData categoryData)
+    {
+        Category category = new Category();
+        category = reposityCategory.findByName(categoryData.getName());
+        System.out.println(category.getCategoryID());
+        System.out.println(category.getDescription());
+        System.out.println(category.getName());
+
+        return category;
+    }
+
 
 }

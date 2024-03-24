@@ -5,4 +5,5 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface ReposityCategory extends CrudRepository<Category,Integer> {
 
+    Category findByName(String name);
 }
