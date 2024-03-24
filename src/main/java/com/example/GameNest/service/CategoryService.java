@@ -43,5 +43,15 @@ public class CategoryService {
         return reposityCategory.save(category);
     }
 
+    public void deleteCategory(CategoryData categoryData)
+    {
+        Category category = new Category();
+        category = findCategory(categoryData);
+        category.setName(categoryData.getName());
+        category.setDescription(categoryData.getDescription());
+
+        reposityCategory.delete(category);
+    }
+
 
 }

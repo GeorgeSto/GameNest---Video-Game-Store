@@ -31,4 +31,10 @@ public class ControllerCategory {
     {
         this.categoryService.updateCategory(categoryData);
     }
+
+    @DeleteMapping("/delete")
+    public void deleteCategory(@RequestBody CategoryData categoryData)
+    {
+        this.categoryService.deleteCategory(categoryData);
+    }
 }
