@@ -34,5 +34,14 @@ public class CategoryService {
         return category;
     }
 
+    public Category updateCategory(CategoryData categoryData)
+    {
+        Category category = findCategory(categoryData);
+        category.setName(categoryData.getName());
+        category.setDescription(categoryData.getDescription());
+
+        return reposityCategory.save(category);
+    }
+
 
 }

@@ -7,10 +7,7 @@
     <list default="true" id="8a62fe30-29bf-4ca5-890c-3fe4d1f46955" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/GameNest/controller/ControllerCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/GameNest/controller/ControllerCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/GameNest/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/GameNest/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/GameNest/repository/ReposityCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/GameNest/repository/ReposityCategory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/GameNest/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/GameNest/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

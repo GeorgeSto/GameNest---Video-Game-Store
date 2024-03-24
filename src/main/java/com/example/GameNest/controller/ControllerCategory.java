@@ -26,4 +26,9 @@ public class ControllerCategory {
         this.categoryService.findCategory(categoryData);
     }
 
+    @PutMapping("/update")
+    public void updateCategory(@RequestBody CategoryData categoryData)
+    {
+        this.categoryService.updateCategory(categoryData);
+    }
 }
