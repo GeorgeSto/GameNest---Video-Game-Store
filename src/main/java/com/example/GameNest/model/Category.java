@@ -6,6 +6,12 @@ import lombok.*;
 import java.util.Set;
 
 
+/**
+ * Represents a Category entity in the GameNest application.
+ * Each category has an ID, a name, a description, and a set of games associated with it.
+ * This entity is mapped to a "Categories" table in the database. Lombok annotations are
+ * used to automatically generate getters, setters, a no-argument constructor, and an all-argument constructor.
+ */
 @Entity
 @Table(name = "Categories")
 @Getter
